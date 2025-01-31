@@ -41,6 +41,7 @@ public class App {
                         cave.addMonster(monster);
                         break;
                     case 2:
+                        System.out.println("Luolan hirviöt:");
                         cave.listMonsters();
                         break;
                     case 3:
