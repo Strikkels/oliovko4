@@ -58,6 +58,7 @@ public class App {
                         System.out.println(cave.player.getName() + " hyökkää " + cave.getMonsters(target).getType() + " hirviöön!");
                         if(cave.getMonsters(target).getHealth() <= 0){
                             cave.removeMonster(target);
+                            System.out.println( cave.getMonsters(target).getType() + " on kuollut!");
                         } else{
                             System.out.println("Hirviöllä on " + cave.getMonsters(target).getHealth() + " elämää jäljellä.");
                         }
