@@ -33,9 +33,9 @@ public class App {
 
                 switch(valinta){
                     case 1:
-                        System.out.print("Anna hirviön tyyppi: ");
+                        System.out.println("Anna hirviön tyyppi: ");
                         String tyyppi = sc.nextLine();
-                        System.out.print("Anna hirviön elämän määrä numerona: ");
+                        System.out.println("Anna hirviön elämän määrä numerona: ");
                         int elamat = sc.nextInt();
                         Monster monster = new Monster(tyyppi, elamat);
                         cave.addMonster(monster);
