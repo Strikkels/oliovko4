@@ -13,7 +13,7 @@ public class App {
         Cave cave = null;
 
 
-        System.out.print( "Anna pelaajan nimi: " );
+        System.out.println( "Syötä pelaajan nimi: " );
         String nimi = sc.nextLine();
         player = new Player(nimi);
         cave = new Cave(player);
