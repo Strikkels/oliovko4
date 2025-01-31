@@ -15,7 +15,7 @@ public class Player implements Serializable {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }   
 
     public void attack(Monster target) {
