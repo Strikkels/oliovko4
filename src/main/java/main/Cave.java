@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 public class Cave implements Serializable {
     public Player player;
-    private ArrayList<Monster> monsters;
+    public ArrayList<Monster> monsters;
 
 
     public Cave(Player player) {

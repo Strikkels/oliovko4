@@ -41,8 +41,12 @@ public class App {
                         cave.addMonster(monster);
                         break;
                     case 2:
-                        System.out.println("Luolan hirviöt:");
-                        cave.listMonsters();
+                        if(cave.monsters.size() == 0){
+                            System.out.println("Luola on tyhjä.");
+                        } else{
+                            System.out.println("Luolan hirviöt: ");
+                            cave.listMonsters();
+                        }
                         break;
                     case 3:
                         System.out.println("Valitse hirviö, johon hyökätä: ");
