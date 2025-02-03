@@ -19,6 +19,7 @@ public class Player implements Serializable {
     }   
 
     public void attack(Monster target) {
+        System.out.println(name + " hyökkää " + target.getType() + " hirviöön!");
         target.takeDamage(10);
     }
 }

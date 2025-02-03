@@ -55,7 +55,6 @@ public class App {
                         sc.nextLine();
                         target--;
                         cave.player.attack(cave.getMonsters(target));
-                        System.out.println(cave.player.getName() + " hyökkää " + cave.getMonsters(target).getType() + " hirviöön!");
                         if(cave.getMonsters(target).getHealth() <= 0){
                             System.out.println( cave.getMonsters(target).getType() + " on kuollut!");
                             cave.removeMonster(target);
